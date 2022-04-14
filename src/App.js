@@ -5,8 +5,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Weather deafultCity="New York" />
+      
+        <Weather defaultCity="New York" />
         <footer>
           {" "}
           This project was coded by Camila Mejia and is
@@ -20,7 +20,6 @@ function App() {
           </a>
         </footer>
       </div>
-    </div>
   );
 }
 
