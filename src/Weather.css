@@ -31,10 +31,9 @@
     list-style: none;
 }
 
-.Weather img{
-    height: 64px;
-    width: 64px;
+.Weather canvas {
     margin-right: 10px;
+    float: left;
 }
 
 .Weather .temperature {
@@ -58,5 +57,5 @@
 }
 
 .Weather .float-left {
-    float: left;
+    float: inherit;
 }
